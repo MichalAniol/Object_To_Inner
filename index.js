@@ -1,7 +1,7 @@
 const show = document.querySelector('#show');
 const show_2 = document.querySelector('#show_2');
 
-// #region [rgba(0,0,120,0.1)] --> URUCHOMIENIE MODUŁU
+// #region [rgba(0,0,120,0.1)] --> clear function
 
 const objectToInner = (obj, deep = 0) => {
     let txt = '';
@@ -65,7 +65,7 @@ const objectToInner = (obj, deep = 0) => {
 
 // #endregion
 
-// #region [rgba(120,0,0,0.1)] --> OPERATORY MENU
+// #region [rgba(120,0,0,0.1)] --> function with exceptions
 
 const objectToInnerException = (obj, deep = 0, exception = false) => {
     let exceptionList = ['way'];
@@ -132,7 +132,7 @@ const objectToInnerException = (obj, deep = 0, exception = false) => {
 
 // #endregion
 
-// #region [rgba(110,200,0,0.02)]
+// #region [rgba(110,200,0,0.02)] --> dataset and test
 
 const hexData = {
     type: 1,
